@@ -1,4 +1,5 @@
 .heading {
+
   font-size: 25px;
 
   width: 100%;
@@ -6,23 +7,46 @@
 }
 
 .note {
-  font-size: 15px;
-  color: black;
+
+font-size: 15px;
+color: black;
+
 }
 
 body {
+
   background-size: cover;
 }
 
-.div_speed {
-  float: center;
-}
+
 
 #speed {
-  font-size: 23px;
-  margin: 15px;
+
+font-size: 23px;
+margin: 15px;    
+
 }
 
+
+
+
+
+#volume {
+font-size: 23px;
+margin: 15px;
+
+
+}
+
+.play_button {
+
+width: 120px;
+font-size: 24px;
+
+}
 canvas {
-  border: chartreuse;
+
+border: 10px dotted aqua;
+border-radius: 23px;
+
 }

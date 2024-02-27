@@ -15,22 +15,31 @@
     <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <script
+src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js" target="_blank"></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
   </head>
 
-  <body background="cyberpunk-sci-fi-product-podium-showcase-in-empty-room-with-blue-and-pink-background-technology-and-entertainment-object-concept-3d-illustration-rendering-photo.jpg">
+  <body
+    background="cyberpunk-sci-fi-product-podium-showcase-in-empty-room-with-blue-and-pink-background-technology-and-entertainment-object-concept-3d-illustration-rendering-photo.jpg"
+  >
     <center>
       <h3 class="btn btn-warning heading">
-        AI DJ WEB APP
+       OLD DJ WEB APP
 
         <br />
         <span class="note"
-          >NOTE - Get your left hand to play peter pan song.Get your right wrist
-          in front of the webcam to play harry poter theme song</span
+          >NOTE - Move your left-hand wrist up and down for increasing and
+          decreasing the volume. Move your right-hand wrist up and down for
+          increasing and decreasing the speed</span
         >
       </h3>
-      <div class="div_speed">
-        <h3 class="btn btn-danger" id="speed">Song Name</h3>
-      </div>
+      <h3 class="btn btn-danger" id="song">Song name</h3>
+
+      <br /><br />
+      <button onclick="play()" class="btn btn-success play_button">Play</button>
     </center>
 
     <script src="main.js"></script>
